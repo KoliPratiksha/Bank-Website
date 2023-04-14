@@ -1,0 +1,53 @@
+.nav a:hover{
+    background-color: rgb(255, 166, 0);
+}
+h5{
+    background-color: rgb(253, 248, 248);
+}
+.card{
+    border-color: rgb(65, 16, 18);
+    /* border-radius: 15%; */
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+.box{
+    background-color: rgb(94, 91, 91);
+}
+.box .btn:hover{
+       background-color: rgb(255, 0, 98);
+}
+#project .card{
+    border-color: rgb(245, 226, 226);
+    border-top-right-radius: 0%;
+    border-bottom-left-radius:0%;
+}
+#footer img:hover{
+    background-color: black;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .mobile{
+        display: flex;
+    }
+    /* .right,.main-menu{
+        display: none !important;
+    } */
+    .footer1 a{
+        display: none;
+    }
+    #about{
+        display: none;
+    }
+
+}
+@media screen and (max-width:425px) {
+
+    .myproject{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
